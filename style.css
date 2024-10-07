@@ -1,0 +1,34 @@
+body {
+  background-image: url("nyan_cat.gif");
+  background-repeat: repeat;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; 
+  font-size: 16px;
+}
+
+#logo {
+  text-align: center;
+  padding: 25px;
+  font-size: 64px;
+  font-family: "Changa One", Helvetica, Arial, sans-serif; 
+  color: white;
+  text-shadow: #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px;
+}
+
+.container {
+  max-width: 900px; /* width */
+  margin: 50px auto; /* page centre */
+  padding: 25px; /* padding inside rectangle */
+  background: rgba(255, 255, 255, 0.9)
+}
+
+#headings {
+  font-size: 24px;
+  font-family: "Changa One", Helvetica, Arial, sans-serif; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
